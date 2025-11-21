@@ -17,6 +17,7 @@ public class VendingMachine extends LinkedList<Snack>
     // Reset
     public void reset()
     {
+        yourItems.clear();
         clear();
         add(new Snack("Potato Chips", 150, 1, 2.5));
         add(new Snack("Pretzels", 110, 1, 2.5));
